@@ -1,0 +1,11 @@
+services:
+  privacy-inpaint:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./data:/app/data
+      - model-cache:/root/.cache   # keeps downloaded Stable Diffusion / InsightFace models between runs
+volumes:
+  model-cache:

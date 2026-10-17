@@ -1,0 +1,22 @@
+# Core
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+tqdm
+
+# Detectors
+insightface
+onnxruntime        # or onnxruntime-gpu if you have CUDA
+ultralytics        # for YOLO plate detector (optional)
+
+# Inpainting
+diffusers
+transformers
+accelerate
+safetensors
+
+# UI + eval
+streamlit
+scikit-image
